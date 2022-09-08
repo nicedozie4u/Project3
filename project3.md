@@ -18,4 +18,4 @@
 
 `npm init`
 
-![alt text](image.jpg)
+![package.json](./images/package_json.jpg)
