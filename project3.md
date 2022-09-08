@@ -20,4 +20,4 @@
 
 `npm init`
 
-![package_json](./images/package_json.png)
+![package json](./images/package_json.png)
