@@ -4,7 +4,8 @@
 
 `sudo apt upgrade`
 
-<!-- get the location of Node.js software from Ubuntu repositories -->
+[//]: # " get the location of Node.js software from Ubuntu repositories."
+
 `curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -`
 
 `sudo apt-get install -y nodejs`
