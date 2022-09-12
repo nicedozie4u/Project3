@@ -69,3 +69,33 @@ created an inbound rule to open TCP port 5000
 `http://44.204.43.55/>:5000`
 
 ![node running on port 5000](./images/express.PNG)
+
+**ROUTES**
+
+`mkdir routes`
+
+`cd routes`
+
+`touch api.js`
+
+`vim api.js`
+
+``` javascript
+const express = require ('express');
+const router = express.Router();
+
+router.get('/todos', (req, res, next) => {
+
+});
+
+router.post('/todos', (req, res, next) => {
+
+});
+
+router.delete('/todos/:id', (req, res, next) => {
+
+})
+
+module.exports = router;
+```
+
