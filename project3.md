@@ -251,5 +251,32 @@ next();
 
 app.listen(port, () => {
 console.log(`Server running on port ${port}`)
-});```
+}); 
+```
 
+Start your server using the command:
+
+`node index.js`
+
+You shall see a message **‘Database connected successfully’**, if so – we have our backend configured. Now we are going to test it.
+
+### Testing Backend Code without Frontend using RESTful API
+
+In this project, we will use **Postman** to test our API
+
+Now open your Postman, create a POST request to the API `http://<PublicIP-or-PublicDNS>:5000/api/todos`. This request sends a new task to our To-Do list so the application could store it in the database.
+
+**Note**: make sure your set header key `Content-Type` as `application/json`
+
+![Postman Header](./images/Postman(Header).PNG)
+
+![Postman POST](./images/Postman(POST%20Request).PNG)
+
+Create a GET request to your API on `http://<PublicIP-or-PublicDNS>:5000/api/todos`. This request retrieves all existing records from out To-do application (backend requests these records from the database and sends it us back as a response to GET request).
+
+![Postman Header](./images/Postman(GET%20Request).PNG)
+
+
+- [x]Display a list of tasks – HTTP GET request
+- [x]Add a new task to the list – HTTP POST request
+- [x]Delete an existing task from the list – HTTP DELETE request
