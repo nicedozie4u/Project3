@@ -173,8 +173,40 @@ Todo.findOneAndDelete({"_id": req.params.id})
 module.exports = router;
 ```
 
+
 **MONGODB DATABASE**
 
 We need a database where we will store our data. For this we will make use of mLab. mLab provides MongoDB database as a service solution (DBaaS)
 
 ![MongoDB](./images/mLab.PNG)
+
+Create a file in your `Todo` directory and name it `.env`.
+
+` touch .env`
+
+`vi .env`
+
+Add the connection string to access the database in it, just as below:
+
+`DB = 'mongodb+srv://<username>:<password>@<network-address>/<dbname>?retryWrites=true&w=majority'`
+
+Ensure to update `<username>, <password>, <network-address>` and `<database>` according to your setup
+
+![Mongo Connect](./images/Mongo%20connect.PNG)
+
+Now we need to update the `index.js` to reflect the use of `.env` so that Node.js can connect to the database.
+
+Simply delete existing content in the file, and update it with the entire code below.
+
+To do that using `vim`, follow below steps
+
+Open the file with `vim index.js`
+Press `esc`
+Type `:`
+Type `%d`
+Hit ‘Enter’
+The entire content will be deleted, then,
+
+Press `i` to enter the insert mode in vim
+7. Now, paste the entire code below in the file.
+
