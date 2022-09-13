@@ -200,13 +200,18 @@ Simply delete existing content in the file, and update it with the entire code b
 
 To do that using `vim`, follow below steps
 
-Open the file with `vim index.js`
-Press `esc`
-Type `:`
-Type `%d`
-Hit ‘Enter’
+1. Open the file with `vim index.js`
+
+2. Press `esc`
+
+3. Type `:`
+
+4. Type `%d`
+
+5. Hit ‘Enter’
 The entire content will be deleted, then,
 
-Press `i` to enter the insert mode in vim
+6. Press `i` to enter the insert mode in vim
+
 7. Now, paste the entire code below in the file.
 
