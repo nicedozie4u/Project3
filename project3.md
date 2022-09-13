@@ -172,3 +172,9 @@ Todo.findOneAndDelete({"_id": req.params.id})
 
 module.exports = router;
 ```
+
+**MONGODB DATABASE**
+
+We need a database where we will store our data. For this we will make use of mLab. mLab provides MongoDB database as a service solution (DBaaS)
+
+![MongoDB](./images/mLab.PNG)
