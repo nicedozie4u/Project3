@@ -22,7 +22,7 @@
 
 ![package json](./images/package_json.PNG)
 
-<!-- INSTALL EXPRESS.JS  Remember that Express is a framework for Node.js, therefore a lot of things developers would have programmed is already taken care of out of the box. Therefore it simplifies development, and abstracts a lot of low level details. For example, Express helps to define routes of your application based on HTTP methods and URLs.-->
+INSTALL EXPRESS.JS  Remember that Express is a framework for Node.js, therefore a lot of things developers would have programmed is already taken care of out of the box. Therefore it simplifies development, and abstracts a lot of low level details. For example, Express helps to define routes of your application based on HTTP methods and URLs.
 
 `npm install express`
 
@@ -66,9 +66,11 @@ If every thing goes well, you should see Server running on port 5000 in your ter
 
 created an inbound rule to open TCP port 5000
 
-`http://44.204.43.55/>:5000`
+`http://44.204.43.55:5000`
+
 
 ![node running on port 5000](./images/express.PNG)
+
 
 ### ROUTES
 
