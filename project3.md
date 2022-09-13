@@ -70,7 +70,7 @@ created an inbound rule to open TCP port 5000
 
 ![node running on port 5000](./images/express.PNG)
 
-**ROUTES**
+### ROUTES
 
 `mkdir routes`
 
@@ -99,7 +99,7 @@ router.delete('/todos/:id', (req, res, next) => {
 module.exports = router;
 ```
 
-**MODELS**
+### MODELS
 
 Change directory back Todo folder with `cd ..` and install Mongoose
 
@@ -174,7 +174,7 @@ module.exports = router;
 ```
 
 
-**MONGODB DATABASE**
+### MONGODB DATABASE
 
 We need a database where we will store our data. For this we will make use of mLab. mLab provides MongoDB database as a service solution (DBaaS)
 
@@ -269,6 +269,7 @@ Now open your Postman, create a POST request to the API `http://<PublicIP-or-Pub
 **Note**: make sure your set header key `Content-Type` as `application/json`
 
 ![Postman Header](./images/Postman(Header).PNG)
+
 
 ![Postman POST](./images/Postman(POST%20Request).PNG)
 
